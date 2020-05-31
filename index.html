@@ -148,7 +148,7 @@
 										</div>
 									</div>
 									<div class="left-block__an-video--container--block">
-										<img class="left-block__an-video--container--img" src="images/an-video1.png" alt="Video">
+										<img class="left-block__an-video--container--img" src="images/an-video2.png" alt="Video">
 										<div class="left-block__an-video--info">
 											<p class="left-block__an-video--info--p">Про відновлення кадетського кор...</p>
 											<p class="left-block__an-video--info--date">07.05.2020</p>
@@ -201,7 +201,7 @@
 						</div>
 
 						<div class="central-block__btn">
-							<a class="central-block__btn--a" href="video.html">Знати більше</a>
+							<a class="central-block__btn--a" href="video.html">Більше відео</a>
 						</div>
 
 						<div class="central-block__button--reporter ">
@@ -249,13 +249,24 @@
 						<div class="central-block__scandals--block">
 							<div class="row">
 								<a class="central-block__scandals--block--a" href="skandal.html">
-								<div class="central-block__scandals--when">
-									<p class="central-block__scandals--p">Когда же будут тушить леса?!</p>
-								</div>
+								<div class="when-block">
+									<div class="central-block__scandals--when">
+										<p class="central-block__scandals--p">Когда же будут тушить леса?!</p>
+									</div>
 
-								<!-- <div class="central-block__scandals--when">
-									<a href="#"></a>
-								</div> -->
+									<div class="central-block__block__scandals--know">
+										<!-- <a class="central-block__block--scandals--know--a" href="#"> -->
+											<div class="central-block__btn--scandal">
+												<div class="central-block__btn--p">
+													<p class="central-block__scandals--know--p">Знати все </p>
+												</div>
+												<div class="central-block__btn--img">
+													<img class="central-block__block__scandals--know--img" src="images/arrow-point.png" alt="">
+												</div>
+											</div>
+										<!-- </a> -->
+									</div>
+								</div>
 								
 								<div class="central-block__scandals--who">
 									<img class="central-block__scandals--img1" src="images/second-insta.png" alt="Logo">
@@ -326,6 +337,28 @@
 							<div class="right-block__network--p">
 								<p class="akk-name">@xenia_sobchak</p>
 								<p class="akk-sub">телеведуча</p>
+							</div>
+						</a>
+						</div>
+						<div class="right-block__network">
+							<a class="right-block__network--a" href="#">
+								<img src="images/third-insta.png" alt="Logo">
+							</a>
+							<a class="right-block__network--a" href="#">
+								<div class="right-block__network--p">
+									<p class="akk-name">@actresspanina</p>
+									<p class="akk-sub">актриса</p>
+								</div>
+							</a>
+						</div>
+						<div class="right-block__network">
+							<a class="right-block__network--a" href="#">
+								<img src="images/4-insta.png" alt="Logo">
+							</a>
+							<a class="right-block__network--a" href="#">
+							<div class="right-block__network--p">
+								<p class="akk-name">@petroporoshenko</p>
+								<p class="akk-sub">політик</p>
 							</div>
 						</a>
 						</div>
@@ -412,45 +445,47 @@
 		</div>
 			<!-- <div id="bg_layer"></div> -->
 
-
-			<div id="window-reg" name="window">
-				<!-- Картинка крестика -->
-				<div class="close-icon">
-				  <svg class="icon">
-					<use xlink:href="images/sprite.svg#close"></use>
-				  </svg>
-				</div>
-				<div class="form">
-					<a class="logo-header form-logo" href="#">
-						<svg class="icon form-logo-img">
-							<use xlink:href="images/sprite.svg#logo-svg"></use>
+			<div id="popup-fade">
+					<div class="popup" id="window-reg" name="window">
+						<!-- Картинка крестика -->
+						<div class="close-icon">
+						<svg class="icon">
+							<use xlink:href="images/sprite.svg#close"></use>
 						</svg>
-					</a>
-					<p class="form-logo-p">Зареєструватися</p>
-					<form action="index.html" name="f1">
-						<!-- <input type="submit" value="Google" name="sab" class="input input__networks" /> -->
-						<!-- <input type="submit" value="Facebook" name="sab" class="input input__networks" /> -->
-						<input type="name" id="reg-user" placeholder="Ваш нікнейм" name="name" class="input input__fields reg-user" />
-						<input type="tel" id="reg-tel" placeholder="Ваш номер телефону" name="tel"
-						class="input input__fields input__fields-last reg-tel" />
-						<input type="email" id="username" placeholder="Ваш e-mail" name="email" class="input input__fields input__fields-last login" />
-					</form>
-					<div class="form__body--checkbox">
-						<div class="checkbox offset-1">
-							<input class="custom-checkbox" type="checkbox" id="color-8" name="color-8" value="indigo">
-							<label class="label label-check" for="color-8"> Залишити звернення анонімно</label>
+						</div>
+						<div class="form">
+							<a class="logo-header form-logo" href="#">
+								<svg class="icon form-logo-img">
+									<use xlink:href="images/sprite.svg#logo-svg"></use>
+								</svg>
+							</a>
+							<p class="form-logo-p">Зареєструватися</p>
+							<form action="index.html" name="f1">
+								<!-- <input type="submit" value="Google" name="sab" class="input input__networks" /> -->
+								<!-- <input type="submit" value="Facebook" name="sab" class="input input__networks" /> -->
+								<input type="name" id="reg-user" placeholder="Ваш нікнейм" name="name" class="input input__fields reg-user" />
+								<input type="tel" id="reg-tel" placeholder="Ваш номер телефону" name="tel"
+								class="input input__fields input__fields-last reg-tel" />
+								<input type="email" id="username" placeholder="Ваш e-mail" name="email" class="input input__fields input__fields-last login" />
+							</form>
+							<div class="form__body--checkbox">
+								<div class="checkbox offset-1">
+									<input class="custom-checkbox" type="checkbox" id="color-8" name="color-8" value="indigo">
+									<label class="label label-check" for="color-8"> Залишити звернення анонімно</label>
+								</div>
+							</div>
+							<div class="button input__button btn-log">
+								<p class="btn-log--p">Вже є аккаунт?<a class="btn-log--a" href="#">Увійти</a></p>
+							</div>
+							<div class="button input__button btn-form-reg">
+								<a class="btn-form-reg__a" href="#">
+									<div class="btn input__btn btn-form-reg__sign">Sign up</div>
+								</a>
+							</div>
+
 						</div>
 					</div>
-					<div class="button input__button btn-log">
-						<p class="btn-log--p">Вже є аккаунт?<a class="btn-log--a" href="#">Увійти</a></p>
-					</div>
-					<div class="button input__button btn-form-reg">
-						<a class="btn-form-reg__a" href="#">
-							<div class="btn input__btn btn-form-reg__sign">Sign up</div>
-						</a>
-					</div>
-
-				</div>
+					<!-- <div class="overlay"></div> -->
 			</div>
 
 			<div id="video-popup" name="window">

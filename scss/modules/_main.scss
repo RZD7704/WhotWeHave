@@ -283,6 +283,37 @@
         color: #363636;
     }
 
+    &__scandals--btn-block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__btn--scandal {
+        display: flex;
+        margin-top: 10px;
+        margin-top: 28px;
+    }
+
+    &__btn--p {
+        margin-right: 5px;
+    }
+
+    .when-block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__block--scandals--know--a {
+        text-decoration: none;
+    }
+
+    &__scandals--know--p {
+        font-size: 13px;
+        line-height: 12px;
+        letter-spacing: 0.01em;
+        color: #828282;
+    }
+
     &__scandals--when {
         background: #F7D631;
         border-radius: 5px;
@@ -299,6 +330,7 @@
         letter-spacing: 0.01em;
         color: #FFFFFF;
         padding: 10px 5px;
+        width: 245px;
     }
 
     &__scandals--who {

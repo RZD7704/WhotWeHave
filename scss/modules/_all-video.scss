@@ -1,5 +1,60 @@
 .left-block {
 
+    &__all-video--selects {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &___all-video--select {
+        position: relative;
+    }
+
+    &___all-video--select:after {
+        content: "";
+        display: block;
+        border-style: solid;
+        border-width: 6px 5px 0 5px;
+        border-color: #000 transparent transparent transparent;
+        pointer-events: none;
+        position: absolute;
+        top: 50%;
+        right: 1rem;
+        z-index: 1;
+        margin-top: -3px;
+        // background: url(../images/arrow-select.png) no-repeat;
+
+    }
+
+    &__all-video--select-1 {
+        margin-right: 15px;
+    }
+
+    .select {
+        display: block;
+        width: 125px; /* от ширины блока div */
+        padding: 5px 10px;/* отступы от текста до рамки */
+        background: #F5F5F5; /* убираем фон */
+        // -webkit-appearance: none;/* Chrome */
+        // -moz-appearance: none;/* Firefox */
+        // // appearance: none;/* убираем дефолнтные стрелочки */
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.01em;
+        color: #828282;
+        border: 1px solid #828282;
+        border-radius: 2px;
+    }
+
+    .option {
+        background: #F5F5F5;
+        margin: 5px;
+    }
+
     &__all-video--blocks {
         display: flex;
         justify-content: space-between;

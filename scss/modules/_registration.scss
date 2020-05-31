@@ -5,13 +5,25 @@
     background: #fff;
     border: 1px solid #fff;
     border-radius: 0;
-    z-index: 999;
+    z-index: 99999;
     display: none;
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
+}
+
+
+#popup-fade {
+    // display: none;
+	position: fixed;
+	// display: none;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+    z-index: 9999;
 }
 
 .form {
@@ -282,3 +294,15 @@
         padding-left: 10px;
       }
 
+
+    // #popup-fade:before {
+    //     content: '';
+    //     background: #000;
+    //     position: fixed; 
+    //     left: 0;
+    //     top: 0;
+    //     width: 100%; 
+    //     height: 100%;
+    //     opacity: 0.7;
+    //     z-index: 9999;
+    // }
