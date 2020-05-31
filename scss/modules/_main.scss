@@ -1,3 +1,8 @@
+.main {
+    padding-bottom: 50px;
+    position: relative;
+}
+
 .left-block {
 
 
@@ -90,9 +95,7 @@
 
 
     &__an-video {
-        @media (max-width: 750px) {
-            display: none;
-        }
+
     }
 
     &__an-video--btns {
@@ -159,6 +162,7 @@
         letter-spacing: 0.01em;
         color: #363636;
         margin-left: 5px;
+        margin-top: 5px;
     }
 
     &__an-video--info--date {
@@ -167,6 +171,8 @@
         letter-spacing: 0.01em;
         color: rgba(190, 190, 190, 0.9);
         margin-left: 60px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     .date__title {
@@ -187,7 +193,9 @@
 
     &__new-video {
         height: 365px;
-
+        @media (max-width: 750px) {
+            display: none;
+        }
     }
 
     &__btn {
@@ -279,6 +287,7 @@
         background: #F7D631;
         border-radius: 5px;
         margin-top: 15px;
+        width: 245px;
     }
 
     &__scandals--p {
@@ -319,9 +328,35 @@
         margin-top: 25px;
     }
 
+    &__scandals--name1 {
+        font-size: 11px;
+        line-height: 12px;
+        letter-spacing: 0.01em;
+        color: #363636;
+    }
+
     &__scandals--name2 {
         text-align: right;
-        color: #FFFFFF;
+        font-size: 11px;
+        line-height: 12px;
+        letter-spacing: 0.01em;
+        color: #363636;
+        margin-right: 15px;
+    }
+
+    &__scandals--sub1 {
+        font-size: 11px;
+        line-height: 12px;
+        letter-spacing: 0.01em;
+        color: #828282;
+    }
+
+    &__scandals--sub2 {
+        font-size: 11px;
+        line-height: 12px;
+        letter-spacing: 0.01em;
+        color: #828282;
+        margin-left: 25px;
     }
 }
 
