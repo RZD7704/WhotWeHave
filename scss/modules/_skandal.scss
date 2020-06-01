@@ -79,9 +79,39 @@
     }
 
     &__box--ring {
+        width: 100%;
+    }
+
+    &__box--fase {
         background: url('../images/ring.png') no-repeat top center;
         width: 420px;
         height: 420px;
+        position: relative;
+        margin: auto;
+    }
+
+    &__box--blocks1 {
+        display: flex;
+        position: absolute;
+        top: 60px;
+        left: 55px;
+    }
+
+    &__box--blocks2 {
+        display: flex;
+        position: absolute;
+        bottom: 60px;
+        right: 55px;
+    }
+
+    &__box--block--p1 {
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+
+    &__box--block--p2 {
+        margin-top: 25px;
+        margin-right: 10px;
     }
 
     &__box--content {
@@ -89,7 +119,7 @@
     }
 
     &__box--p {
-        padding: 5px;
+        padding: 5px 15px;
     }
 
     &__comment {
