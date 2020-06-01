@@ -11,6 +11,10 @@
             text-decoration: none;
         }
 
+        &--a:hover {
+            text-decoration: none;
+        }
+
         &__theme {
             margin: auto;
             width: 185px;
@@ -49,6 +53,10 @@
             text-decoration: none;
         }
 
+        &__name--a:hover {
+            text-decoration: none;
+        }
+
         &__name--foto {
             display: block;
             margin: auto;
@@ -63,6 +71,10 @@
     }
     
     &__box--a {
+        text-decoration: none;
+    }
+
+    &__box--a:hover {
         text-decoration: none;
     }
 
@@ -116,6 +128,10 @@
     }
 
     &__comment--a {
+        text-decoration: none;
+    }
+
+    &__comment--a:hover {
         text-decoration: none;
     }
 
@@ -201,6 +217,10 @@
     }
 
     &__last-video--container--a {
+        text-decoration: none;
+    }
+
+    &__last-video--container--a:hover {
         text-decoration: none;
     }
 

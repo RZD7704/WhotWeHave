@@ -34,6 +34,7 @@
 
     &__page:hover {
         background: #F7D631; 
+
     }
 
     &__page--a {
@@ -44,9 +45,16 @@
         line-height: 20px;
         letter-spacing: 0.01em;
         color: #F5F5F5;
+        padding: 8px 35px 8px 20px; 
+        // width: 100%;
     }
 
-
+    &__page--a:hover {
+        text-decoration: none;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        color: #F5F5F5;
+    }
 
     &__last-video--container {
         display: flex;
@@ -56,6 +64,10 @@
     }
 
     &__last-video--container--a {
+        text-decoration: none;
+    }
+
+    &__last-video--container--a:hover {
         text-decoration: none;
     }
 
@@ -125,7 +137,18 @@
         color: #F5F5F5;
     }
 
+    &__an-video--a:hover {
+        text-decoration: none;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        color: #F5F5F5;
+    }
+
     &__an-video--container--a {
+        text-decoration: none;
+    }
+
+    &__an-video--container--a:hover {
         text-decoration: none;
     }
 
@@ -213,8 +236,16 @@
     }
 
     &__btn--a:hover {
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
         color: #DEBB00;
     }
+
+    // &__btn--a:hover {
+    //     color: #DEBB00;
+    // }
 
     &__button--reporter {
         text-align: center;
@@ -237,6 +268,8 @@
     &__button--upload--a:hover {
         color: #F7D631;
         background: #000;
+        text-decoration: none;
+
     }
 
     .upload--p {
@@ -270,11 +303,23 @@
         margin-top: 15px;
     }
 
+    &__news--a {
+        text-decoration: none;
+    }
+
+    &__news--a:hover {
+        text-decoration: none;
+    }
+
     &__scandals--block {
         padding: 10px;
     }
 
     &__scandals--block--a {
+        text-decoration: none;
+    }
+
+    &__scandals--block--a:hover {
         text-decoration: none;
     }
 
@@ -321,6 +366,10 @@
     }
 
     &__block--scandals--know--a {
+        text-decoration: none;
+    }
+
+    &__block--scandals--know--a:hover {
         text-decoration: none;
     }
 
@@ -417,6 +466,11 @@
     }
 
     &__network--a {
+        // display: block;
+        text-decoration: none;
+    }
+
+    &__network--a:hover {
         // display: block;
         text-decoration: none;
     }

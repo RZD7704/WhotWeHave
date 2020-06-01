@@ -42,7 +42,8 @@
 
 		// Pop-Up
 		$('#video-popup, #popup-fade').hide();
-		$('.btn-video-popup').click(function(){
+		$('.btn-video-popup').click(function(e){
+			e.preventDefault();
 			$('#video-popup, #popup-fade').show();
 		});
 
@@ -54,7 +55,8 @@
 
 		// Reg
 		$('#window-reg, #popup-fade').hide();
-		$('.btn-reg').click(function(){
+		$('.btn-reg').click(function(e){
+			e.preventDefault();
 			$('#window-reg, #popup-fade').show();
 		});
 
@@ -64,7 +66,8 @@
 
 		// Log
 		$('#window-log, #popup-fade').hide();
-		$('.btn-log--a').click(function(){
+		$('.btn-log--a').click(function(e){
+			e.preventDefault();
 			$('#window-reg, #popup-fade').hide();
 
 			$('#window-log, #popup-fade').show();
