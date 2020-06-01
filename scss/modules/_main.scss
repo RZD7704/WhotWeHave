@@ -23,8 +23,8 @@
         // height: 30px;
         background: #BEBEBE;
         margin-top: 15px;
-        padding-top: 8px;
-        padding-bottom: 8px;
+        // padding-top: 8px;
+        // padding-bottom: 8px;
         border-radius: 5px;
         // text-align: center;
         @media (max-width: 750px) {
@@ -39,7 +39,8 @@
 
     &__page--a {
         // background: grey;
-        text-align: center;
+        // text-align: center;
+        display: block;
         padding-left: 20px;
         text-decoration: none;
         line-height: 20px;
@@ -59,7 +60,7 @@
     &__last-video--container {
         display: flex;
         align-items: flex-start;
-        justify-content: center ;
+        justify-content: center;
         // background: grey;
     }
 
@@ -77,6 +78,7 @@
         padding: 10px;
     }
 
+    
     &__last-video--info {
         display: flex;
         // justify-content: flex-end;
@@ -87,6 +89,7 @@
         // margin-right: 0;
         background: #EAEAEA;
     }
+    
 
     &__last-video--info--p {
         font-size: 15px;
@@ -121,8 +124,8 @@
         text-align: center;
         background: #BEBEBE;
         margin-top: 15px;
-        padding-top: 8px;
-        padding-bottom: 8px;
+        // padding-top: 8px;
+        // padding-bottom: 8px;
         border-radius: 5px;
     }
 
@@ -135,6 +138,8 @@
         line-height: 20px;
         letter-spacing: 0.01em;
         color: #F5F5F5;
+        display: block;
+        padding: 8px 12px;
     }
 
     &__an-video--a:hover {
@@ -455,6 +460,15 @@
         letter-spacing: 0.01em;
         color: #828282;
         margin-left: 25px;
+    }
+
+    &__scandals--likes {
+        margin-top: 15px;
+        display: flex;
+    }
+
+    &__scandals--like {
+        margin-right: 10px;
     }
 }
 

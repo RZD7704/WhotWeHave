@@ -2,43 +2,11 @@
 
 (function($){
 	$(document).ready(function() {
-		// // // Code
-		// // log video-popup
-		// $('.btn-reg').click(() => {
-		// 	showReg();
-		// });
 
-		// // $('.btn-video-popup').click(() => {
-		// // 	showVideo();
-		// // });
-
-		// $('.close-icon').click(() => {
-		// 	hide();
-		// });
-
-		// // function showVideo() {
-		// // 	let videoPopup = document.getElementsById('video-popup, bg_layer');
-		// // 	videoPopup.style.display = "block";
-		// // }
-
-		// function showReg() {
-		// 	let windowLog = document.getElementById('window-reg');
-		// 	windowLog.style.display = "block";
-		// 	let windowFade = document.getElementById('popup-fade');
-		// 	windowFade.style.display = 'block';
-		// }
-
-		// for (let i = 0; i < close.length; i++) {
-		// 	close[i].onclick = hide();
-		// }
-
-		// function hide() {
-		// 	let windowReg = document.getElementById('window-reg');
-		// 	windowReg.style.display = 'none';
-		// 	let windowFade = document.getElementById('popup-fade');
-		// 	windowFade.style.display = 'none';
-		// }
-
+		$('input[name="tel"]').mask('+380 (99) 999-99-99');
+		$('input[name="tel"]').click(function(){
+			$(this).focus();
+		});
 
 		// Pop-Up
 		$('#video-popup, #popup-fade').hide();
@@ -50,8 +18,6 @@
 		$('.close-icon').click(function(){
 			$('#video-popup, #popup-fade').hide();
 		});
-
-		
 
 		// Reg
 		$('#window-reg, #popup-fade').hide();
@@ -77,31 +43,20 @@
 			$('#window-log, #popup-fade').hide();
 		});
 
-
+		Закрытие по клавише Esc.
+		$(document).keydown(function(e) {
+			if (e.keyCode === 27) {
+				e.stopPropagation();
+				$('#popup-fade').fadeOut();
+			}
+		});
 		
-
-		// $('.btn-reg').click(function() {
-		// 	$('.popup-fade').fadeIn();
-		// 	return false;
-		// });	
-		
-		// $('.close-icon').click(function() {
-		// 	$(this).parents('.popup-fade').fadeOut();
-		// 	return false;
-		// });		
-	 
-		// $(document).keydown(function(e) {
-		// 	if (e.keyCode === 27) {
-		// 		e.stopPropagation();
-		// 		$('.popup-fade').fadeOut();
-		// 	}
-		// });
-		
-		// $('.popup-fade').click(function(e) {
-		// 	if ($(e.target).closest('.popup').length == 0) {
-		// 		$(this).fadeOut();					
-		// 	}
-		// });
+		// Клик по фону, но не по окну.
+		$('#popup-fade').click(function(e) {
+			if ($(e.target).closest('.popup').length == 0) {
+				$(this).fadeOut();					
+			}
+		});
 
 	});
 })(jQuery);
