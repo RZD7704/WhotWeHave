@@ -35,7 +35,6 @@
 		$('.btn-log--a').click(function(e){
 			e.preventDefault();
 			$('#window-reg, #popup-fade').hide();
-
 			$('#window-log, #popup-fade').show();
 		});
 
@@ -43,7 +42,7 @@
 			$('#window-log, #popup-fade').hide();
 		});
 
-		Закрытие по клавише Esc.
+		// Закрытие по клавише Esc.
 		$(document).keydown(function(e) {
 			if (e.keyCode === 27) {
 				e.stopPropagation();
