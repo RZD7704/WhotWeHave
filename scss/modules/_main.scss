@@ -212,6 +212,10 @@
         color: #F7D631;
     }
 
+    &__btn--a:hover {
+        color: #DEBB00;
+    }
+
     &__button--reporter {
         text-align: center;
         margin-top: 40px;
@@ -230,6 +234,11 @@
         border-radius: 5px;
     }
 
+    &__button--upload--a:hover {
+        color: #F7D631;
+        background: #000;
+    }
+
     .upload--p {
         font-size: 15px;
         line-height: 20px;
@@ -246,6 +255,10 @@
         text-decoration: none;
     }
 
+    .upload--a:hover {
+        color: #DEBB00;
+    }
+
     &__news {
         height: 250px;
         
@@ -255,6 +268,10 @@
         display: flex;
         align-items: center;
         margin-top: 15px;
+    }
+
+    &__scandals--block {
+        padding: 10px;
     }
 
     &__scandals--block--a {

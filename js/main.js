@@ -2,7 +2,7 @@
 
 (function($){
 	$(document).ready(function() {
-		// // Code
+		// // // Code
 		// log video-popup
 		$('.btn-reg').click(() => {
 			showReg();
@@ -50,16 +50,30 @@
 			$('#video-popup, #popup-fade').hide();
 		});
 
+		
 
-		// // Reg
-		// $('#window-reg, #popup-fade').hide();
-		// $('.btn-reg').click(function(){
-		// 	$('#window-reg, #popup-fade').show();
-		// });
+		// Reg
+		$('#window-reg, #popup-fade').hide();
+		$('.btn-reg').click(function(){
+			$('#window-reg, #popup-fade').show();
+		});
 
-		// $('.close-icon').click(function(){
-		// 	$('#window-reg, #popup-fade').hide();
-		// });
+		$('.close-icon').click(function(){
+			$('#window-reg, #popup-fade').hide();
+		});
+
+		// Log
+		$('#window-log, #popup-fade').hide();
+		$('.btn-log--a').click(function(){
+			$('#window-reg, #popup-fade').hide();
+
+			$('#window-log, #popup-fade').show();
+		});
+
+		$('.close-icon').click(function(){
+			$('#window-log, #popup-fade').hide();
+		});
+
 
 		
 

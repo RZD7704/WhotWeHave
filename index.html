@@ -158,6 +158,10 @@
 							</a>
 						</div>
 
+						<div class="central-block__btn">
+							<a class="central-block__btn--a" href="video.html">Більше відео</a>
+						</div>
+
 					</div>
 				</div>
 
@@ -248,41 +252,48 @@
 
 						<div class="central-block__scandals--block">
 							<div class="row">
-								<a class="central-block__scandals--block--a" href="skandal.html">
-								<div class="when-block">
-									<div class="central-block__scandals--when">
-										<p class="central-block__scandals--p">Когда же будут тушить леса?!</p>
+									<div class="when-block col-12">
+										<div class="central-block__scandals--when">
+											<a class="central-block__scandals--block--a" href="skandal.html">
+												<p class="central-block__scandals--p">Когда же будут тушить леса?!</p>
+											</a>
+										</div>
+
+										<div class="central-block__block__scandals--know">
+											<a class="central-block__block--scandals--know--a" href="skandal.html">
+												<div class="central-block__btn--scandal">
+													<!-- <a class="central-block__scandals--block--a" href=""> -->
+														<div class="central-block__btn--p">
+																<p class="central-block__scandals--know--p">Знати все </p>
+														</div>
+														<div class="central-block__btn--img">
+															<img class="central-block__block__scandals--know--img" src="images/arrow-point.png" alt="">
+														</div>
+													<!-- </a> -->
+												</div>
+											</a>
+										</div>
 									</div>
 
-									<div class="central-block__block__scandals--know">
-										<!-- <a class="central-block__block--scandals--know--a" href="#"> -->
-											<div class="central-block__btn--scandal">
-												<div class="central-block__btn--p">
-													<p class="central-block__scandals--know--p">Знати все </p>
-												</div>
-												<div class="central-block__btn--img">
-													<img class="central-block__block__scandals--know--img" src="images/arrow-point.png" alt="">
-												</div>
-											</div>
-										<!-- </a> -->
+								<a class="central-block__scandals--block--a" href="skandal.html">
+
+									<div class="central-block__scandals--who">
+										<img class="central-block__scandals--img1" src="images/second-insta.png" alt="Logo">
+										<div class="central-block__scandals--cont">
+											<p class="central-block__scandals--name1">Микола Тіщенко</p>
+											<p class="central-block__scandals--sub1">Добрий день, Ліля!  Я вам говорив, що ситуація під контролем. Навіщо провокуєте?</p>
+										</div>
 									</div>
-								</div>
-								
-								<div class="central-block__scandals--who">
-									<img class="central-block__scandals--img1" src="images/second-insta.png" alt="Logo">
-									<div class="central-block__scandals--cont">
-										<p class="central-block__scandals--name1">Микола Тіщенко</p>
-										<p class="central-block__scandals--sub1">Добрий день, Ліля!  Я вам говорив, що ситуація під контролем. Навіщо провокуєте?</p>
+									<div class="central-block__scandals--who">
+										<div class="central-block__scandals--cont">
+											<p class="central-block__scandals--name2">Ліля Багірова</p>
+											<p class="central-block__scandals--sub2">Николай, что под контролем, Вы там вообще были, вот я там была и помогала людям!</p>
+										</div>
+										<img class="central-block__scandals--img2" src="images/4-insta.png" alt="Logo">
 									</div>
-								</div>
-								<div class="central-block__scandals--who">
-									<div class="central-block__scandals--cont">
-										<p class="central-block__scandals--name2">Ліля Багірова</p>
-										<p class="central-block__scandals--sub2">Николай, что под контролем, Вы там вообще были, вот я там была и помогала людям!</p>
-									</div>
-									<img class="central-block__scandals--img2" src="images/4-insta.png" alt="Logo">
-								</div>
-							</a>
+								</a>
+
+
 							</div>
 						</div>
 					</div>
@@ -467,6 +478,7 @@
 								<input type="tel" id="reg-tel" placeholder="Ваш номер телефону" name="tel"
 								class="input input__fields input__fields-last reg-tel" />
 								<input type="email" id="username" placeholder="Ваш e-mail" name="email" class="input input__fields input__fields-last login" />
+								<input type="password" id="password" placeholder="Ваш пароль" name="password" class="input input__fields input__fields-last login" />
 							</form>
 							<div class="form__body--checkbox">
 								<div class="checkbox offset-1">
@@ -486,6 +498,48 @@
 						</div>
 					</div>
 					<!-- <div class="overlay"></div> -->
+					<div id="video-popup" name="window">
+						<div class="close-icon">
+							<svg class="icon">
+							  <use xlink:href="images/sprite.svg#close"></use>
+							</svg>
+						  </div>
+					</div>
+
+					<div class="popup" id="window-log" name="window">
+						<!-- Картинка крестика -->
+						<div class="close-icon">
+						<svg class="icon">
+							<use xlink:href="images/sprite.svg#close"></use>
+						</svg>
+						</div>
+						<div class="form">
+							<a class="logo-header form-logo" href="#">
+								<svg class="icon form-logo-img">
+									<use xlink:href="images/sprite.svg#logo-svg"></use>
+								</svg>
+							</a>
+							<p class="form-logo-p">Увійти</p>
+							<form action="index.html" name="f1">
+								<input type="tel" id="reg-tel" placeholder="Ваш номер телефону" name="tel"
+								class="input input__fields input__fields-last reg-tel" />
+								<input type="password" id="password" placeholder="Ваш пароль" name="password" class="input input__fields input__fields-last login" />
+							</form>
+							<div class="form__body--checkbox">
+								<div class="checkbox offset-1">
+									<input class="custom-checkbox" type="checkbox" id="color-8" name="color-8" value="indigo">
+									<label class="label label-check" for="color-8">Залишити звернення анонімно</label>
+								</div>
+							</div>
+
+							<div class="button input__button btn-form-reg">
+								<a class="btn-form-reg__a" href="#">
+									<div class="btn input__btn btn-form-reg__sign">Log in</div>
+								</a>
+							</div>
+
+						</div>
+					</div>
 			</div>
 
 			<div id="video-popup" name="window">
