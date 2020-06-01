@@ -23,7 +23,7 @@
 		<div class="container">
 			<div class="row justify-content-between">
 				<div class="header__icons order-2 order-md-1">
-				  <div class="row">
+				  <!-- <div class="row"> -->
 					<div class="header__icons--block">
 					  <a class="header__icons--a" href="#">
 						<svg class="icon">
@@ -41,16 +41,16 @@
 						</svg>
 					  </a>
 					</div>
-				  </div>
+				  <!-- </div> -->
 				</div>       
 				<div class="header__logo order-1 order-md-2">
-				  <div class="row">
+				  <!-- <div class="row"> -->
 					<div class="header__logo--block col-6 col-md-2 offset-3 offset-md-1">
 					  <a class="header__logo--a" href="index.html">
 						<img class="header__logo--img" src="images/logo.png" alt="Logo">
 					  </a>
 					</div>
-				  </div>
+				  <!-- </div> -->
 				</div>
 				<div class="header__sign order-3">
 				  <div class="header__sign--button btn-reg">
@@ -532,55 +532,93 @@
 			<!-- <div id="bg_layer"></div> -->
 
 
-			<div id="window-reg" name="window">
-				<!-- Картинка крестика -->
-				<div class="close-icon">
-				  <svg class="icon">
-					<use xlink:href="images/sprite.svg#close"></use>
-				  </svg>
-				</div>
-				<div class="form">
-					<a class="logo-header form-logo" href="#">
-						<svg class="icon form-logo-img">
-							<use xlink:href="images/sprite.svg#logo-svg"></use>
-						</svg>
-					</a>
-					<p class="form-logo-p">Зареєструватися</p>
-					<form action="index.html" name="f1">
-						<!-- <input type="submit" value="Google" name="sab" class="input input__networks" /> -->
-						<!-- <input type="submit" value="Facebook" name="sab" class="input input__networks" /> -->
-						<input type="name" id="reg-user" placeholder="Ваш нікнейм" name="name" class="input input__fields reg-user" />
-						<input type="tel" id="reg-tel" placeholder="Ваш номер телефону" name="tel"
-						class="input input__fields input__fields-last reg-tel" />
-						<input type="email" id="username" placeholder="Ваш e-mail" name="email" class="input input__fields input__fields-last login" />
-					</form>
-					<div class="form__body--checkbox">
-						<div class="checkbox offset-1">
-							<input class="custom-checkbox" type="checkbox" id="color-8" name="color-8" value="indigo">
-							<label class="label label-check" for="color-8"> Залишити звернення анонімно</label>
-						</div>
-					</div>
-					<div class="button input__button btn-log">
-						<p class="btn-log--p">Вже є аккаунт?<a class="btn-log--a" href="#">Увійти</a></p>
-					</div>
-					<div class="button input__button btn-form-reg">
-						<a class="btn-form-reg__a" href="#">
-							<div class="btn input__btn btn-form-reg__sign">Sign up</div>
-						</a>
-					</div>
-
-				</div>
-			</div>
-
-			<div id="video-popup" name="window">
-				<div class="close-icon">
+			<div id="popup-fade">
+				<div class="popup" id="window-reg" name="window">
+					<!-- Картинка крестика -->
+					<div class="close-icon">
 					<svg class="icon">
-					  <use xlink:href="images/sprite.svg#close"></use>
+						<use xlink:href="images/sprite.svg#close"></use>
 					</svg>
-				  </div>
+					</div>
+					<div class="form">
+						<a class="logo-header form-logo" href="#">
+							<svg class="icon form-logo-img">
+								<use xlink:href="images/sprite.svg#logo-svg"></use>
+							</svg>
+						</a>
+						<p class="form-logo-p">Зареєструватися</p>
+						<form action="index.html" name="f1">
+							<!-- <input type="submit" value="Google" name="sab" class="input input__networks" /> -->
+							<!-- <input type="submit" value="Facebook" name="sab" class="input input__networks" /> -->
+							<input type="name" id="reg-user" placeholder="Ваш нікнейм" name="name" class="input input__fields reg-user" />
+							<input type="tel" id="reg-tel" placeholder="Ваш номер телефону" name="tel"
+							class="input input__fields input__fields-last reg-tel" />
+							<input type="email" id="username" placeholder="Ваш e-mail" name="email" class="input input__fields input__fields-last login" />
+							<input type="password" id="password" placeholder="Ваш пароль" name="password" class="input input__fields input__fields-last login" />
+						</form>
+						<div class="form__body--checkbox">
+							<div class="checkbox offset-1">
+								<input class="custom-checkbox" type="checkbox" id="color-8" name="color-8" value="indigo">
+								<label class="label label-check" for="color-8"> Залишити звернення анонімно</label>
+							</div>
+						</div>
+						<div class="button input__button btn-log">
+							<p class="btn-log--p">Вже є аккаунт?<a class="btn-log--a" href="#">Увійти</a></p>
+						</div>
+						<div class="button input__button btn-form-reg">
+							<a class="btn-form-reg__a" href="#">
+								<div class="btn input__btn btn-form-reg__sign">Sign up</div>
+							</a>
+						</div>
+
+					</div>
+				</div>
+				<!-- <div class="overlay"></div> -->
+				<div id="video-popup" name="window">
+					<div class="close-icon">
+						<svg class="icon">
+						  <use xlink:href="images/sprite.svg#close"></use>
+						</svg>
+					  </div>
+				</div>
+
+				<div class="popup" id="window-log" name="window">
+					<!-- Картинка крестика -->
+					<div class="close-icon">
+					<svg class="icon">
+						<use xlink:href="images/sprite.svg#close"></use>
+					</svg>
+					</div>
+					<div class="form">
+						<a class="logo-header form-logo" href="#">
+							<svg class="icon form-logo-img">
+								<use xlink:href="images/sprite.svg#logo-svg"></use>
+							</svg>
+						</a>
+						<p class="form-logo-p">Увійти</p>
+						<form action="index.html" name="f1">
+							<input type="tel" id="reg-tel" placeholder="Ваш номер телефону" name="tel"
+							class="input input__fields input__fields-last reg-tel" />
+							<input type="password" id="password" placeholder="Ваш пароль" name="password" class="input input__fields input__fields-last login" />
+						</form>
+						<div class="form__body--checkbox">
+							<div class="checkbox offset-1">
+								<input class="custom-checkbox" type="checkbox" id="color-8" name="color-8" value="indigo">
+								<label class="label label-check" for="color-8">Залишити звернення анонімно</label>
+							</div>
+						</div>
+
+						<div class="button input__button btn-form-reg">
+							<a class="btn-form-reg__a" href="#">
+								<div class="btn input__btn btn-form-reg__sign">Log in</div>
+							</a>
+						</div>
+
+					</div>
+				</div>
 			</div>
 
-		</div>
+		<!-- </div> -->
 	</section>
 
 	<section class="footer2">

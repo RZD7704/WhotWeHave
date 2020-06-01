@@ -3,41 +3,41 @@
 (function($){
 	$(document).ready(function() {
 		// // // Code
-		// log video-popup
-		$('.btn-reg').click(() => {
-			showReg();
-		});
-
-		// $('.btn-video-popup').click(() => {
-		// 	showVideo();
+		// // log video-popup
+		// $('.btn-reg').click(() => {
+		// 	showReg();
 		// });
 
-		$('.close-icon').click(() => {
-			hide();
-		});
+		// // $('.btn-video-popup').click(() => {
+		// // 	showVideo();
+		// // });
 
-		// function showVideo() {
-		// 	let videoPopup = document.getElementsById('video-popup, bg_layer');
-		// 	videoPopup.style.display = "block";
+		// $('.close-icon').click(() => {
+		// 	hide();
+		// });
+
+		// // function showVideo() {
+		// // 	let videoPopup = document.getElementsById('video-popup, bg_layer');
+		// // 	videoPopup.style.display = "block";
+		// // }
+
+		// function showReg() {
+		// 	let windowLog = document.getElementById('window-reg');
+		// 	windowLog.style.display = "block";
+		// 	let windowFade = document.getElementById('popup-fade');
+		// 	windowFade.style.display = 'block';
 		// }
 
-		function showReg() {
-			let windowLog = document.getElementById('window-reg');
-			windowLog.style.display = "block";
-			let windowFade = document.getElementById('popup-fade');
-			windowFade.style.display = 'block';
-		}
+		// for (let i = 0; i < close.length; i++) {
+		// 	close[i].onclick = hide();
+		// }
 
-		for (let i = 0; i < close.length; i++) {
-			close[i].onclick = hide();
-		}
-
-		function hide() {
-			let windowReg = document.getElementById('window-reg');
-			windowReg.style.display = 'none';
-			let windowFade = document.getElementById('popup-fade');
-			windowFade.style.display = 'none';
-		}
+		// function hide() {
+		// 	let windowReg = document.getElementById('window-reg');
+		// 	windowReg.style.display = 'none';
+		// 	let windowFade = document.getElementById('popup-fade');
+		// 	windowFade.style.display = 'none';
+		// }
 
 
 		// Pop-Up

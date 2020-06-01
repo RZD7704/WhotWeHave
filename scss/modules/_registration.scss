@@ -148,6 +148,10 @@
         text-decoration: none;
     }
 
+    &__a:hover {
+        text-decoration: none;
+    }
+
     &__sign {
         text-decoration: none;
         text-align: center;
@@ -160,7 +164,7 @@
         color: #F5F5F5;
         background: #F7D631;
         border-radius: 5px;
-        width: 160px;
+        // width: 165px;
         }
 
     &__sign:hover {
@@ -212,6 +216,11 @@
         line-height: 12px;
         letter-spacing: 0.01em;
         color: #050101;
+    }
+
+    &--a:hover {
+        text-decoration: none;
+
     }
 }
 //  checkbox
