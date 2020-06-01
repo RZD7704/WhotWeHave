@@ -12,6 +12,7 @@
 		$('#video-popup, #popup-fade').hide();
 		$('.btn-video-popup').click(function(e){
 			e.preventDefault();
+			$('#window-reg, #popup-fade').hide();
 			$('#video-popup, #popup-fade').show();
 		});
 
@@ -23,6 +24,7 @@
 		$('#window-reg, #popup-fade').hide();
 		$('.btn-reg').click(function(e){
 			e.preventDefault();
+			$('#video-popup, #popup-fade').hide();
 			$('#window-reg, #popup-fade').show();
 		});
 
