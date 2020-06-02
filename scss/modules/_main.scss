@@ -413,6 +413,10 @@
         line-height: 12px;
         letter-spacing: 0.01em;
         color: #828282;
+
+        @media (max-width: 750px) {
+            font-size: 11px;        
+        }
     }
 
     &__scandals--when {
@@ -420,6 +424,9 @@
         border-radius: 5px;
         margin-top: 15px;
         width: 245px;
+        @media (max-width: 750px) {
+            width: 230px;        
+        }
     }
 
     &__scandals--p {
@@ -432,6 +439,10 @@
         color: #FFFFFF;
         padding: 10px 5px;
         width: 245px;
+
+        @media (max-width: 750px) {
+            font-size: 14px;        
+        }
     }
 
     &__scandals--who {
