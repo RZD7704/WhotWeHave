@@ -78,18 +78,6 @@
         text-decoration: none;
     }
 
-    &__box--ring {
-        width: 100%;
-    }
-
-    &__box--fase {
-        background: url('../images/ring.png') no-repeat top center;
-        width: 420px;
-        height: 420px;
-        position: relative;
-        margin: auto;
-    }
-
     &__box--blocks1 {
         display: flex;
         position: absolute;
