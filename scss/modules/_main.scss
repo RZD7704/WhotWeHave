@@ -350,7 +350,6 @@
 
     &__news--block--img {
         width: 20px;
-        height: 20px;
         margin-right: 20px;
         margin-left: 5px;
     }
@@ -499,7 +498,21 @@
     }
 
     &__scandals--like {
-        margin-right: 10px;
+        margin-right: 20px;
+    }
+
+    &__scandals--like--a {
+        display: flex;
+        text-decoration: none;
+    }
+
+    &__scandals--like--a:hover {
+        text-decoration: none;
+    }
+
+    &__scandals--like--a--p {
+        color: #828282;
+        margin-left: 10px;
     }
 }
 
